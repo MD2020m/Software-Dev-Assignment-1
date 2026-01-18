@@ -8,7 +8,7 @@
 }
 
 img {
-    size-adjust: inherit;
+    width: 500px;
 }
 
 p {
@@ -28,5 +28,11 @@ body {
 #page-title {
     font-size: 65px;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 250px;
+    }
 }
 
